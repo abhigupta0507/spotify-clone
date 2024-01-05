@@ -1,0 +1,47 @@
+
+
+
+.sidebar-1
+{
+    background-color:rgb(26, 25, 25);
+    width:420px;
+    height:102px;
+    display:flex;
+    flex-direction: column;
+    color:rgb(216, 216, 216);
+    border-radius:8px;
+    position:fixed;
+}
+
+.home,.search
+{
+    display:flex;
+    margin-top:15px;
+    margin-left:25px;
+    opacity:0.7;
+    transition: opacity 0.2s;
+}
+
+.home:hover,.search:hover
+{
+    opacity:1;
+}
+
+.home-image,.search-image
+{
+    width:25px;
+    margin-right:25px;
+}
+
+.home-text,.search-text
+{
+    margin-top:3px;
+    font-weight:bold;
+    transition:color 0.2s;
+}
+
+.home-text:hover,.search-text:hover
+{
+    color:white;
+    cursor:pointer;
+}

@@ -1,0 +1,118 @@
+.header
+{
+    border-top-left-radius:10px;
+    border-top-right-radius: 10px;
+    padding:20px;
+    display:flex;
+    height:35px;
+    justify-content: space-between;
+    right:5px;
+    margin-left:14px;
+    background-color: rgb(28, 28, 28);
+    width:61.7%;
+    position:fixed;
+    margin-top:-10px !important;
+    
+}
+
+.navigation-arrows-header
+{
+   display:flex;
+}
+
+.left-arrow-nav-header,.right-arrow-nav-header
+{
+    height:35px;
+    width:35px;
+    border-radius:50%;
+    border:none;
+    background-color:black;
+}
+
+.left-arrow-nav-header
+{
+    margin-right:10px;
+}
+
+.left-arrow
+{
+    margin-left:-2px;
+    width:20px;
+}
+
+.right-arrow
+{
+    margin-left:2px;
+    width:20px;
+}
+
+.header-tabs
+{
+    width:360px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.explore-premium,.install-app
+{
+    font-size:13px;
+    font-weight:bolder;
+    border-radius:45px;
+    padding-left:16px;
+    padding-right:16px;
+    border:none;
+    height:37px;
+}
+
+.install-app
+{
+    display: flex;
+    color:white;
+    background-color: black;
+    justify-content: space-between;
+}
+
+.install-app-photo
+{
+    margin-top:8px;
+    margin-right:5px;
+    width:18px;
+}
+
+.install-app-text
+{
+    margin-top:10px;
+}
+
+.notification-photo,.profile-photo
+{
+    width:20px;
+}
+
+.notifications,.profile
+{
+    border-radius:50%;
+    background-color:black;
+    border:none;
+}
+
+.explore-premium:hover,.install-app:hover,.notifications:hover,.profile:hover
+{
+    transform:scale(1.06);
+    cursor:pointer;
+}
+
+.profile
+{
+     margin-right:5px;
+    border-radius:50%;
+    height:30px;
+    width:30px;
+}
+
+.profile-photo
+{
+    height:15px;
+    width:15px;
+}

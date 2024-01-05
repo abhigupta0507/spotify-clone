@@ -1,0 +1,240 @@
+
+
+.recently-played
+{
+    padding-bottom:10px;
+    padding-left:25px;
+    color:white;
+    font-weight:bolder;
+    font-size:22px;
+    margin-top:60px;
+}
+
+.box-1
+{
+    border-radius:10px;
+    background-color: rgb(28, 28, 28);
+    width:170px;
+    display:flex;
+    flex-direction: column;
+    color:white;
+    padding:20px;
+    padding-right:0px;
+    margin:20px;
+    margin-right:0px;
+    margin-top:0px;
+    transition:background-color 0.2s;
+}
+
+.box-1:hover
+{
+    background-color:rgb(39, 39, 39);
+    cursor:pointer;
+}
+
+.image-container-in-box
+{
+    width: 150px;
+    height: 150px;
+}
+
+.image-in-box
+{
+    width:150px;
+    border-radius:10px;
+}
+
+.song-details-box
+{
+    margin-top:20px;
+}
+
+.title-box
+{
+    color:white;
+    font-weight:bold;
+}
+
+.description-box
+{
+    color: rgb(213, 213, 213);
+    font-size:12.5px;
+    margin-top:7px;
+    font-family:arial;
+    line-height: 17px;;
+}
+
+.box-of-row-of-songs
+{
+    margin:20px;
+}
+
+.heading
+{
+    display:flex;
+    flex:1;
+    justify-content: space-between;
+}
+
+.title-of-row
+{
+    color:white;
+    font-weight: bolder;
+    font-size:22px;
+}
+
+.title-of-row:hover,.show-all:hover
+{
+    text-decoration:underline;
+    cursor:pointer;
+}
+
+.show-all
+{
+    color:grey;
+    font-weight: bold;
+    font-size:13px;
+    padding-right:20px;
+    font-family: arial;
+}
+
+.content-of-box
+{
+    display:flex;
+}
+
+.box-2
+{
+    border-radius:10px;
+    background-color: rgb(28, 28, 28);
+    width:170px;
+    display:flex;
+    flex-direction: column;
+    color:white;
+    padding:20px;
+    padding-right:0px !important;
+    margin-bottom:10px;
+    margin-right:7px;
+    margin-top:10px;
+    transition:background-color 0.2s;
+}
+
+.box-2:hover
+{
+    background-color:rgb(39, 39, 39);
+    cursor:pointer;
+}
+
+.other-info-container
+{
+    display:flex;
+    margin:40px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(54, 54, 54);
+    padding-bottom:40px;
+    border-bottom-width: 1.5px;
+    
+}
+
+.list-others-info-container
+{
+    margin-right:350px;
+}
+
+.list-other-info-inner-container
+{
+    display:grid;
+    grid-template-columns: 50% 50%;
+    row-gap: 40px;
+    column-gap: 70px;;
+}
+
+.company-list
+{
+    display:flex;
+    flex-direction: column;
+}
+
+.title-other-info
+{
+    color:white;
+    font-weight:bold;
+    margin-bottom:10px;
+}
+
+.list-other-info
+{
+    color:rgb(209, 208, 208);
+    display:flex;
+    flex-direction: column;
+    row-gap:10px;
+}
+
+.element-inner:hover
+{
+    text-decoration: underline;
+    color:white;
+    cursor:pointer;
+}
+
+.instagram-photo,.facebook-photo,.twitter-photo
+{
+    width:20px;
+}
+
+.social-media-profiles
+{
+    display:flex;
+    height:35px;
+    width:150px;
+    justify-content:space-between;
+}
+
+.social-media-button
+{
+    border-radius:50%;
+    width:40px;
+    height:40px;
+    background-color:rgb(45, 45, 45);
+    border:none;
+    
+}
+
+.social-media-photo
+{
+    width:20px;
+    margin-top:5px;
+}
+
+.social-media-button:hover
+{
+    background-color: rgb(163, 163, 163);
+}
+
+.grid-last-line
+{
+    display:flex;
+    column-gap:20px;
+    font-size:14px;
+    margin-left:30px;
+    margin-bottom:100px;
+}
+
+.spotify-external-links
+{
+    color:rgb(173, 173, 173);
+    font-family: arial;
+}
+
+.spotify-external-links:hover
+{
+    cursor:pointer;
+    color:white;
+}
+
+
+
+
+
+
+
