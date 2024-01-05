@@ -18,8 +18,12 @@
     display:flex;
     margin-top:15px;
     margin-left:25px;
-    opacity:0.7;
     transition: opacity 0.2s;
+}
+
+.search
+{
+opacity:0.7;
 }
 
 .home:hover,.search:hover
